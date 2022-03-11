@@ -11,7 +11,7 @@ public class CollectArrayList {
 		
 		List<String> list = new ArrayList<String>();
 		for(int i=0;i<10;i++) {
-			list.add("That eerie night, I tried to fall asleep...");
+			list.add("That Morning we went on a ride");
 		}
 		
 		List<String> set = list.stream().limit(2).collect(Collectors.toList());
